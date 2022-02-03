@@ -1,0 +1,63 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  margin: 0 auto;
+  background: coral;
+}
+
+.container {
+  border: 10px solid;
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 20px;
+  padding: 1rem;
+  display: flex;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+}
+
+.container div {
+  border: 8px #0d0d0d solid;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 0;
+  font-family: monospace;
+  width: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: #ff7e5f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #feb47b,
+    #ff7e5f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #feb47b,
+    #ff7e5f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  cursor: pointer;
+}
